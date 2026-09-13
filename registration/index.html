@@ -34,264 +34,293 @@
     <main id="main">
       <section class="page-head registration-heading">
         <span class="eyebrow blue">LEIGHMUN / REGISTRATION</span>
-        <h1>A seat for your<br />perspective.</h1>
+        <h1>Registration<br />not yet open.</h1>
         <p>
-          Join the conversation. Register your school delegation or attend as an
-          individual.
+          Registration for LeighMUN will open soon. Check back here for updates.
         </p>
       </section>
-      <div class="content glass-registration">
-        <aside class="registration-aside">
-          <span class="eyebrow blue">YOUR LEIGHMUN EXPERIENCE</span>
-          <h2>Big ideas.<br />New connections.</h2>
-          <p>
-            Choose how you’re attending, then share your details and committee
-            preferences.
-          </p>
-          <div class="format-note">
-            <strong>FAO</strong><span>Single delegate</span>
-          </div>
-          <div class="format-note">
-            <strong>DISEC</strong><span>Double delegate</span>
-          </div>
-          <p class="reg-fine">
-            Committee preferences are requests, not confirmed assignments.
-          </p>
-        </aside>
-        <form
-          class="registration-card"
-          id="registration"
-          action="https://docs.google.com/forms/d/e/1FAIpQLSdcTVmWQMVpcsp8ZtzqCKEionqkIbGUCpbhAFYMecA9BhWUJg/formResponse"
-          method="post"
-          target="_blank"
-          rel="noopener"
-        >
-          <input
-            type="hidden"
-            name="pageHistory"
-            id="page-history"
-            value="0,1"
-          /><input type="hidden" name="fvv" value="1" />
-          <fieldset class="type-choice">
-            <legend>How are you attending?</legend>
-            <div class="type-options">
-              <label
-                ><input
-                  type="radio"
-                  name="entry.490011390"
-                  value="Delegation"
-                  checked
-                  required
-                /><span>Delegation<small>Register a group</small></span></label
-              ><label
-                ><input
-                  type="radio"
-                  name="entry.490011390"
-                  value="Individual"
-                  required
-                /><span>Individual<small>Register yourself</small></span></label
-              >
-            </div>
-          </fieldset>
-          <fieldset id="delegation-fields">
-            <legend>Delegation details</legend>
-            <div class="reg-grid">
-              <label class="reg-field" for="f471195606"
-                ><span>Delegation name</span
-                ><input
-                  id="f471195606"
-                  name="entry.471195606"
-                  type="text"
-                  required
-                  autocomplete="organization" /></label
-              ><label class="reg-field" for="f82785668"
-                ><span>Head delegate name</span
-                ><input
-                  id="f82785668"
-                  name="entry.82785668"
-                  type="text"
-                  required
-                  autocomplete="name" /></label
-              ><label class="reg-field" for="f415593858"
-                ><span>Head delegate email</span
-                ><input
-                  id="f415593858"
-                  name="entry.415593858"
-                  type="email"
-                  required
-                  autocomplete="email" /></label
-              ><label class="reg-field" for="f1463729110"
-                ><span>Advisor name</span
-                ><input
-                  id="f1463729110"
-                  name="entry.1463729110"
-                  type="text"
-                  required /></label
-              ><label class="reg-field" for="f1899880103"
-                ><span>Advisor email</span
-                ><input
-                  id="f1899880103"
-                  name="entry.1899880103"
-                  type="email"
-                  required /></label
-              ><label class="reg-field" for="f1125661580"
-                ><span>Total students attending</span
-                ><input
-                  id="f1125661580"
-                  name="entry.1125661580"
-                  type="number"
-                  required
-                  min="1"
-                  step="1"
-                  inputmode="numeric"
-              /></label>
-            </div>
-            <h3 class="reg-subheading">Committee requests</h3>
-            <p class="reg-help">
-              Enter the number of students in each category. Count both students
-              in a DISEC pair: 3 pairs = 6 students.
-            </p>
-            <div class="reg-grid">
-              <label class="reg-field" for="f1637368615"
-                ><span>FAO · GA single delegates</span
-                ><input
-                  id="f1637368615"
-                  name="entry.1637368615"
-                  type="number"
-                  required
-                  min="0"
-                  step="1"
-                  value="0"
-                  inputmode="numeric"
-                  data-count /></label
-              ><label class="reg-field" for="f19697142"
-                ><span>DISEC · GA double delegates</span
-                ><input
-                  id="f19697142"
-                  name="entry.19697142"
-                  type="number"
-                  required
-                  min="0"
-                  step="2"
-                  value="0"
-                  inputmode="numeric"
-                  data-count /></label
-              ><label class="reg-field" for="f923672127"
-                ><span>Specialized delegates</span
-                ><input
-                  id="f923672127"
-                  name="entry.923672127"
-                  type="number"
-                  required
-                  min="0"
-                  step="1"
-                  value="0"
-                  inputmode="numeric"
-                  data-count /></label
-              ><label class="reg-field" for="f241234460"
-                ><span>Crisis delegates</span
-                ><input
-                  id="f241234460"
-                  name="entry.241234460"
-                  type="number"
-                  required
-                  min="0"
-                  step="1"
-                  value="0"
-                  inputmode="numeric"
-                  data-count
-              /></label>
-            </div>
-            <p class="count-total" id="count-total" aria-live="polite">
-              0 students allocated
-            </p>
-          </fieldset>
-          <fieldset id="individual-fields" hidden disabled>
-            <legend>Your details</legend>
-            <div class="reg-grid">
-              <label class="reg-field" for="f1882673903"
-                ><span>Delegation name</span
-                ><input
-                  id="f1882673903"
-                  name="entry.1882673903"
-                  type="text"
-                  required /></label
-              ><label class="reg-field" for="f640246051"
-                ><span>Email</span
-                ><input
-                  id="f640246051"
-                  name="entry.640246051"
-                  type="email"
-                  required
-                  autocomplete="email"
-              /></label>
-            </div>
-            <h3 class="reg-subheading">Committee preference</h3>
-            <div class="preference-grid">
-              <label class="preference"
-                ><input
-                  type="radio"
-                  name="entry.231546232"
-                  value="FAO — GA single delegate"
-                  required
-                /><span
-                  ><strong>FAO</strong
-                  ><small>General Assembly · Single delegate</small></span
-                ></label
-              ><label class="preference"
-                ><input
-                  type="radio"
-                  name="entry.231546232"
-                  value="DISEC — GA double delegate"
-                  required
-                /><span
-                  ><strong>DISEC</strong
-                  ><small>General Assembly · Double delegate</small></span
-                ></label
-              ><label class="preference"
-                ><input
-                  type="radio"
-                  name="entry.231546232"
-                  value="Specialized"
-                  required
-                /><span
-                  ><strong>Specialized</strong
-                  ><small>Focused debate</small></span
-                ></label
-              ><label class="preference"
-                ><input
-                  type="radio"
-                  name="entry.231546232"
-                  value="Crisis"
-                  required
-                /><span
-                  ><strong>Crisis</strong
-                  ><small>Evolving scenarios</small></span
-                ></label
-              >
-            </div>
-          </fieldset>
-          <div class="registration-bottom">
-            <p class="reg-fine">
-              Your details go to the LeighMUN organizing team. Submission opens
-              Google’s confirmation page in a new tab; keep this page open until
-              your registration is confirmed.
-            </p>
-            <button class="button blue-button" type="submit">
-              Submit registration <span aria-hidden="true">↗</span>
-            </button>
-            <p id="registration-status" role="status"></p>
-            <a
-              class="registration-fallback"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdcTVmWQMVpcsp8ZtzqCKEionqkIbGUCpbhAFYMecA9BhWUJg/viewform"
-              target="_blank"
-              rel="noopener"
-              >Having trouble? Open the Google Form</a
+      <div class="content">
+        <section class="split">
+          <h2>Get ready for LeighMUN.</h2>
+          <div>
+            <p>Explore our committees and conference details while you wait.</p>
+            <a class="button blue-button" href="../committees/index.html"
+              >Explore committees <span aria-hidden="true">↗</span></a
             >
           </div>
-        </form>
+        </section>
       </div>
     </main>
+    <!-- Saved registration page: template contents are inert and cannot submit.
+         To reopen, replace the main above with this template's main, remove the
+         template wrapper, and restore the registration.js script after site.js. -->
+    <template id="saved-registration-page">
+      <main id="main">
+        <section class="page-head registration-heading">
+          <span class="eyebrow blue">LEIGHMUN / REGISTRATION</span>
+          <h1>A seat for your<br />perspective.</h1>
+          <p>
+            Join the conversation. Register your school delegation or attend as
+            an individual.
+          </p>
+        </section>
+        <div class="content glass-registration">
+          <aside class="registration-aside">
+            <span class="eyebrow blue">YOUR LEIGHMUN EXPERIENCE</span>
+            <h2>Big ideas.<br />New connections.</h2>
+            <p>
+              Choose how you’re attending, then share your details and committee
+              preferences.
+            </p>
+            <div class="format-note">
+              <strong>FAO</strong><span>Single delegate</span>
+            </div>
+            <div class="format-note">
+              <strong>DISEC</strong><span>Double delegate</span>
+            </div>
+            <p class="reg-fine">
+              Committee preferences are requests, not confirmed assignments.
+            </p>
+          </aside>
+          <form
+            class="registration-card"
+            id="registration"
+            action="https://docs.google.com/forms/d/e/1FAIpQLSdcTVmWQMVpcsp8ZtzqCKEionqkIbGUCpbhAFYMecA9BhWUJg/formResponse"
+            method="post"
+            target="_blank"
+            rel="noopener"
+          >
+            <input
+              type="hidden"
+              name="pageHistory"
+              id="page-history"
+              value="0,1"
+            /><input type="hidden" name="fvv" value="1" />
+            <fieldset class="type-choice">
+              <legend>How are you attending?</legend>
+              <div class="type-options">
+                <label
+                  ><input
+                    type="radio"
+                    name="entry.490011390"
+                    value="Delegation"
+                    checked
+                    required
+                  /><span
+                    >Delegation<small>Register a group</small></span
+                  ></label
+                ><label
+                  ><input
+                    type="radio"
+                    name="entry.490011390"
+                    value="Individual"
+                    required
+                  /><span
+                    >Individual<small>Register yourself</small></span
+                  ></label
+                >
+              </div>
+            </fieldset>
+            <fieldset id="delegation-fields">
+              <legend>Delegation details</legend>
+              <div class="reg-grid">
+                <label class="reg-field" for="f471195606"
+                  ><span>Delegation name</span
+                  ><input
+                    id="f471195606"
+                    name="entry.471195606"
+                    type="text"
+                    required
+                    autocomplete="organization" /></label
+                ><label class="reg-field" for="f82785668"
+                  ><span>Head delegate name</span
+                  ><input
+                    id="f82785668"
+                    name="entry.82785668"
+                    type="text"
+                    required
+                    autocomplete="name" /></label
+                ><label class="reg-field" for="f415593858"
+                  ><span>Head delegate email</span
+                  ><input
+                    id="f415593858"
+                    name="entry.415593858"
+                    type="email"
+                    required
+                    autocomplete="email" /></label
+                ><label class="reg-field" for="f1463729110"
+                  ><span>Advisor name</span
+                  ><input
+                    id="f1463729110"
+                    name="entry.1463729110"
+                    type="text"
+                    required /></label
+                ><label class="reg-field" for="f1899880103"
+                  ><span>Advisor email</span
+                  ><input
+                    id="f1899880103"
+                    name="entry.1899880103"
+                    type="email"
+                    required /></label
+                ><label class="reg-field" for="f1125661580"
+                  ><span>Total students attending</span
+                  ><input
+                    id="f1125661580"
+                    name="entry.1125661580"
+                    type="number"
+                    required
+                    min="1"
+                    step="1"
+                    inputmode="numeric"
+                /></label>
+              </div>
+              <h3 class="reg-subheading">Committee requests</h3>
+              <p class="reg-help">
+                Enter the number of students in each category. Count both
+                students in a DISEC pair: 3 pairs = 6 students.
+              </p>
+              <div class="reg-grid">
+                <label class="reg-field" for="f1637368615"
+                  ><span>FAO · GA single delegates</span
+                  ><input
+                    id="f1637368615"
+                    name="entry.1637368615"
+                    type="number"
+                    required
+                    min="0"
+                    step="1"
+                    value="0"
+                    inputmode="numeric"
+                    data-count /></label
+                ><label class="reg-field" for="f19697142"
+                  ><span>DISEC · GA double delegates</span
+                  ><input
+                    id="f19697142"
+                    name="entry.19697142"
+                    type="number"
+                    required
+                    min="0"
+                    step="2"
+                    value="0"
+                    inputmode="numeric"
+                    data-count /></label
+                ><label class="reg-field" for="f923672127"
+                  ><span>Specialized delegates</span
+                  ><input
+                    id="f923672127"
+                    name="entry.923672127"
+                    type="number"
+                    required
+                    min="0"
+                    step="1"
+                    value="0"
+                    inputmode="numeric"
+                    data-count /></label
+                ><label class="reg-field" for="f241234460"
+                  ><span>Crisis delegates</span
+                  ><input
+                    id="f241234460"
+                    name="entry.241234460"
+                    type="number"
+                    required
+                    min="0"
+                    step="1"
+                    value="0"
+                    inputmode="numeric"
+                    data-count
+                /></label>
+              </div>
+              <p class="count-total" id="count-total" aria-live="polite">
+                0 students allocated
+              </p>
+            </fieldset>
+            <fieldset id="individual-fields" hidden disabled>
+              <legend>Your details</legend>
+              <div class="reg-grid">
+                <label class="reg-field" for="f1882673903"
+                  ><span>Delegation name</span
+                  ><input
+                    id="f1882673903"
+                    name="entry.1882673903"
+                    type="text"
+                    required /></label
+                ><label class="reg-field" for="f640246051"
+                  ><span>Email</span
+                  ><input
+                    id="f640246051"
+                    name="entry.640246051"
+                    type="email"
+                    required
+                    autocomplete="email"
+                /></label>
+              </div>
+              <h3 class="reg-subheading">Committee preference</h3>
+              <div class="preference-grid">
+                <label class="preference"
+                  ><input
+                    type="radio"
+                    name="entry.231546232"
+                    value="FAO — GA single delegate"
+                    required
+                  /><span
+                    ><strong>FAO</strong
+                    ><small>General Assembly · Single delegate</small></span
+                  ></label
+                ><label class="preference"
+                  ><input
+                    type="radio"
+                    name="entry.231546232"
+                    value="DISEC — GA double delegate"
+                    required
+                  /><span
+                    ><strong>DISEC</strong
+                    ><small>General Assembly · Double delegate</small></span
+                  ></label
+                ><label class="preference"
+                  ><input
+                    type="radio"
+                    name="entry.231546232"
+                    value="Specialized"
+                    required
+                  /><span
+                    ><strong>Specialized</strong
+                    ><small>Focused debate</small></span
+                  ></label
+                ><label class="preference"
+                  ><input
+                    type="radio"
+                    name="entry.231546232"
+                    value="Crisis"
+                    required
+                  /><span
+                    ><strong>Crisis</strong
+                    ><small>Evolving scenarios</small></span
+                  ></label
+                >
+              </div>
+            </fieldset>
+            <div class="registration-bottom">
+              <p class="reg-fine">
+                Your details go to the LeighMUN organizing team. Submission
+                opens Google’s confirmation page in a new tab; keep this page
+                open until your registration is confirmed.
+              </p>
+              <button class="button blue-button" type="submit">
+                Submit registration <span aria-hidden="true">↗</span>
+              </button>
+              <p id="registration-status" role="status"></p>
+              <a
+                class="registration-fallback"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdcTVmWQMVpcsp8ZtzqCKEionqkIbGUCpbhAFYMecA9BhWUJg/viewform"
+                target="_blank"
+                rel="noopener"
+                >Having trouble? Open the Google Form</a
+              >
+            </div>
+          </form>
+        </div>
+      </main>
+    </template>
     <footer>
       <a class="footer-brand" href="../index.html"
         >Model United Nations<span>A place for every perspective.</span></a
@@ -308,6 +337,5 @@
       </p>
     </footer>
     <script src="../site.js"></script>
-    <script src="registration.js"></script>
   </body>
 </html>
