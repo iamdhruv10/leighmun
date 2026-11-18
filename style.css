@@ -1481,3 +1481,32 @@ footer {
     height: 48px;
   }
 }
+
+/* Percy Jackson committee identity. */
+.crisis-heading {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 24px 0;
+}
+.crisis-heading h1 {
+  margin: 0;
+}
+.crisis-emblem {
+  width: clamp(140px, 20vw, 240px);
+  height: auto;
+  flex-shrink: 0;
+}
+.crisis-card-emblem {
+  display: block;
+  width: 120px;
+  height: auto;
+  margin: 18px 0;
+}
+@media (max-width: 700px) {
+  .crisis-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
